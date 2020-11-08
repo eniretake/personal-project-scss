@@ -1,0 +1,232 @@
+/* component 1 background color*/
+/* component 1 text color */
+/* side menu color for tablet and mobile version*/
+/* component 2 background color*/
+/*read more button component 2*/
+body, html {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .component-1 {
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-1 .container-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: inherit;
+    padding-left: 16%;
+    padding-right: 18.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .logo span {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .component-1 .container-1 .menu-bar {
+    display: none;
+  }
+  .component-1 .container-1 .start-menu {
+    min-width: 540px;
+    width: 52%;
+    padding-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .start-menu li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .component-1 {
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-1 .container-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: inherit;
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .logo span {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .component-1 .container-1 .menu-bar {
+    padding-top: 7px;
+  }
+  .component-1 .container-1 .start-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .component-1 {
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 12.5px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-1 .container-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: inherit;
+    padding-left: 6%;
+    padding-right: 7.2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .logo > img {
+    height: 33px;
+  }
+  .component-1 .container-1 .logo span {
+    font-size: 27.22px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .component-1 .container-1 .menu-bar {
+    padding-top: 4px;
+  }
+  .component-1 .container-1 .menu-bar img {
+    height: 31px;
+  }
+  .component-1 .container-1 .start-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .component-1 {
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-1 .container-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: inherit;
+    padding-left: 17%;
+    padding-right: 19.6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .logo span {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .component-1 .container-1 .menu-bar {
+    display: none;
+  }
+  .component-1 .container-1 .start-menu {
+    min-width: 590px;
+    width: 52%;
+    padding-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .start-menu li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .component-1 {
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 22px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-1 .container-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: inherit;
+    padding-left: 19.53%;
+    padding-right: 19.6%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .logo span {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+  }
+  .component-1 .container-1 .menu-bar {
+    display: none;
+  }
+  .component-1 .container-1 .start-menu {
+    width: 63.24%;
+    padding-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-1 .container-1 .start-menu li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .component-2 {
+    width: 100%;
+    background-color: #292929;
+    padding-top: 100px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

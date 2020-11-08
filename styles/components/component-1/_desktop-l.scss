@@ -1,0 +1,41 @@
+@media screen and (min-width:1200px) and (max-width:1600px){
+    .component-1{
+        width: 100%;
+        padding-top: 27px;
+        padding-bottom: 22px;
+        background-color: $color-1;
+        color: $color-2;
+            .container-1{
+                font-family: $font-sans;
+                font-weight: 400;
+                font-size: 14px;
+                height: inherit;
+                padding-left:17%;
+                padding-right: 19.6%;
+                display: flex;
+                justify-content: space-between;
+                    .logo span{
+                        font-size:36px;
+                        font-family: $font-raleway;
+                        font-weight: 300;
+                    }
+                    .menu-bar{
+                        display: none;
+                    }
+                    .start-menu{
+                        min-width: 590px;
+                        width: 52%;
+                        padding-top: 14px;
+                        display: flex;
+                        justify-content: space-between;
+                            li{
+                                display: inline-block;
+                                
+                            }
+                            
+                    }
+            }
+    
+    }
+    
+}
