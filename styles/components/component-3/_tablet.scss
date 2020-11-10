@@ -1,0 +1,103 @@
+@media screen and (min-width:768px) and (max-width:1023px){
+    .component-3{
+        width: 100%;
+        background-color: $color-2;
+        padding-top: 61px;
+        padding-bottom: 134px;
+        .container-3-desktop{
+            display: none;
+        }
+        .container-3-mobile{
+            display: none;
+        }
+        .title-3{
+            text-align: center;
+            h2{
+                margin: auto;
+                font-weight: 600;
+                font-family: $font-raleway;
+                font-size: 28.88px;
+                line-height: 57.43px;
+                span{
+                    color: $color-3;
+                }
+            }
+            .icon-3{
+                width: 16.3%;
+                display: flex;
+                justify-content: space-between;
+                margin:auto;
+
+                hr{
+                    width: 30px;
+                }
+            }
+        }
+
+        .container-3-tablet{
+            width: 93.6%;
+            margin: auto;
+            padding-top: 54px;
+
+            .img-4-tablet{
+                width: 100%;
+                padding-top: 210px;
+                padding-bottom: 211px;
+                background-image:url('https://wallpaper-house.com/data/out/10/wallpaper2you_401812.jpg');
+                background-size: cover;
+            }
+
+            .about-us-3{
+                padding-top: 14px;
+                h2{
+                font-family: $font-raleway;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 19px;
+                letter-spacing: -0.6px;
+                }
+            }
+            hr{
+                border: 0.1px $color-8 solid;
+            }
+            p{
+                padding-top: 5px;
+                font-family: $font-sans;
+                font-size: 13px;
+                line-height: 23px;
+                color: $color-6;
+            }
+
+            .features-list-tablet{
+                padding-top:0px;
+                .row{
+                    position: relative;
+                    margin: 0px;
+                    padding-top: 28px;
+                    padding-bottom: 17px;
+                    p{
+                        position: absolute;
+                        width: 75%;
+                        margin: 0px;
+                        left: 4.3%;
+                        top: 18px;
+                    }
+                }
+            }
+            .read-more-3{
+                margin-top: 45px;
+                padding-top: 13px;
+                padding-bottom: 14px;
+                padding-right: 7px;
+                width: 18.1%;
+                text-align: center;
+                font-family: $font-raleway;
+                font-weight: 600;
+                font-size: 13px;
+                background-color: $color-5;
+                border: 1px solid $color-2;
+                color: $color-2;  
+            }
+        }
+    }
+}

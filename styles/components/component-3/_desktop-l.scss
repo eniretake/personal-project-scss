@@ -1,0 +1,117 @@
+@media screen and (min-width:1200px) and (max-width:1600px){
+    .component-3{
+        width: 100%;
+        background-color: $color-2;
+        padding-top: 103px;
+        padding-bottom: 134px;
+        .container-3-tablet{
+            display: none;
+        }
+        .container-3-mobile{
+            display: none;
+        }
+        .title-3{
+            text-align: center;
+            h2{
+                margin: auto;
+                font-weight: 600;
+                font-family: $font-raleway;
+                font-size: 31px;
+                line-height: 61px;
+                span{
+                    color: $color-3;
+                }
+            }
+            .icon-3{
+                width: 6.3%;
+                display: flex;
+                justify-content: space-between;
+                margin:auto;
+
+                hr{
+                    width: 30px;
+                }
+            }
+        }
+        .container-3-desktop{
+            display: flex;
+            justify-content: space-around;
+            .img-3{
+                position: relative;    
+                width: 510px;
+                // left:19.3%;
+                left: 8%;
+                padding-top: 93px;
+                margin-right: 6%;
+                .mac-bg{
+                    position: absolute;
+                    top: 113px;
+                    left: 21.7px;
+                    img{
+                        
+                        height: 264.04px;
+                    }
+                }
+            }
+            .content-3{
+                width: 30.3%;
+                position: relative;
+                left: -8.18%;
+                padding-top: 62px;
+                margin-left: 6%;
+                .about-us-3{
+                    h2{
+                        font-family: $font-raleway;
+                        font-weight: 600;
+                        font-size: 31px;
+                        line-height: 32px;
+                        letter-spacing: -0.7px;
+                    }
+                }
+                p{
+                    font-family: $font-sans;
+                    font-size: 14px;
+                    line-height: 27px;
+                    color: $color-6;
+                }
+                .features-3-list{
+                    
+                    .col{
+                        display: flex;
+                        
+                        div.icon-3-1{
+                            margin-top: 38px;
+                            padding: 17px 20px 44px 20px;
+                            height: 0px;
+                            border-radius: 50%;
+                            background-color: $color-7;
+                            text-align: center;
+                            .location{
+                                padding: 0px 3px;
+                            }
+                        }
+                        .feat-cont{
+                            width: 181px;
+                            padding-left: 28px;
+                            h3{
+                                font-family: $font-raleway;
+                                font-size: 18px;
+                                padding-top: 24px;
+                                line-height: 3px;
+                                letter-spacing: -0.5px;
+                            }
+                            p{
+                                font-size:13px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                        
+                }
+                
+            }
+        }
+        
+    }
+    
+}

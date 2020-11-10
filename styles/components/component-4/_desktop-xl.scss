@@ -1,0 +1,31 @@
+@media screen and (min-width:1600px){
+    .component-4{
+        display: none;
+        width: 100%;
+        background-color: #000000;
+        color:$color-2;
+        .title-4{
+            padding-left: 44.68%;
+            h2{
+                margin: auto;
+                font-weight: 600;
+                font-family: $font-raleway;
+                font-size: 31px;
+                line-height: 61px;
+                
+            }
+            .icon-4{
+                width: 12.3%;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 3.5%;
+
+                hr{
+                    width: 30px;
+                    height: 0px;
+                    color: $color-4;
+                }
+            }
+        }
+    }
+}

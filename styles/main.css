@@ -3,6 +3,9 @@
 /* side menu color for tablet and mobile version*/
 /* component 2 background color*/
 /*read more button component 2*/
+/* paragraph color in component 3 */
+/* icon background color in component 3 */
+/* hr color in component 3*/
 body, html {
   width: 100%;
   padding: 0px;
@@ -225,7 +228,8 @@ body, html {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .component-2 {
     width: 100%;
-    background-color: #292929;
+    background-image: url("../../../images/component-2/bg-1.jpg");
+    background-size: cover;
     padding-top: 116px;
     padding-bottom: 187px;
     display: -webkit-box;
@@ -268,8 +272,9 @@ body, html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 11px;
+    padding-right: 5px;
     width: 19.8%;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -285,7 +290,8 @@ body, html {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .component-2 {
     width: 100%;
-    background-color: #292929;
+    background-image: url("../../../images/component-2/bg-1.jpg");
+    background-size: cover;
     padding-top: 30px;
     padding-bottom: 60px;
     display: -webkit-box;
@@ -348,9 +354,10 @@ body, html {
 @media screen and (min-width: 1025px) {
   .component-2 {
     width: 100%;
-    background-color: #292929;
+    background-image: url("https://images.unsplash.com/photo-1536253407392-03d1288ea694?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80");
+    background-size: cover;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 260px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -397,8 +404,8 @@ body, html {
             box-sizing: border-box;
     margin-left: 42.3%;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 18.5%;
+    padding-bottom: 11px;
+    width: 18.4%;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
@@ -407,6 +414,606 @@ body, html {
     border: 1px solid #FFFFFF;
     outline: 3px solid #3AB6B2;
     color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .component-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 103px;
+    padding-bottom: 134px;
+  }
+  .component-3 .container-3-tablet {
+    display: none;
+  }
+  .component-3 .container-3-mobile {
+    display: none;
+  }
+  .component-3 .title-3 {
+    text-align: center;
+  }
+  .component-3 .title-3 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    line-height: 61px;
+  }
+  .component-3 .title-3 h2 span {
+    color: #3AB6B2;
+  }
+  .component-3 .title-3 .icon-3 {
+    width: 6.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-3 .title-3 .icon-3 hr {
+    width: 30px;
+  }
+  .component-3 .container-3-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-3 .container-3-desktop .img-3 {
+    position: relative;
+    width: 510px;
+    left: 6%;
+    padding-top: 93px;
+    margin-right: 5%;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg {
+    position: absolute;
+    top: 113px;
+    left: 21.7px;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg img {
+    height: 264.04px;
+  }
+  .component-3 .container-3-desktop .content-3 {
+    width: 35.4%;
+    position: relative;
+    left: -8.18%;
+    padding-top: 62px;
+  }
+  .component-3 .container-3-desktop .content-3 .about-us-3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 32px;
+    letter-spacing: -0.7px;
+  }
+  .component-3 .container-3-desktop .content-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #6A6A6A;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 {
+    margin-top: 38px;
+    padding: 17px 20px 44px 20px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #3B3B3B;
+    text-align: center;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 .location {
+    padding: 0px 3px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont {
+    width: 181px;
+    padding-left: 28px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding-top: 24px;
+    line-height: 3px;
+    letter-spacing: -0.5px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 61px;
+    padding-bottom: 134px;
+  }
+  .component-3 .container-3-desktop {
+    display: none;
+  }
+  .component-3 .container-3-mobile {
+    display: none;
+  }
+  .component-3 .title-3 {
+    text-align: center;
+  }
+  .component-3 .title-3 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 28.88px;
+    line-height: 57.43px;
+  }
+  .component-3 .title-3 h2 span {
+    color: #3AB6B2;
+  }
+  .component-3 .title-3 .icon-3 {
+    width: 16.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-3 .title-3 .icon-3 hr {
+    width: 30px;
+  }
+  .component-3 .container-3-tablet {
+    width: 93.6%;
+    margin: auto;
+    padding-top: 54px;
+  }
+  .component-3 .container-3-tablet .img-4-tablet {
+    width: 100%;
+    padding-top: 210px;
+    padding-bottom: 211px;
+    background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_401812.jpg");
+    background-size: cover;
+  }
+  .component-3 .container-3-tablet .about-us-3 {
+    padding-top: 14px;
+  }
+  .component-3 .container-3-tablet .about-us-3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 19px;
+    letter-spacing: -0.6px;
+  }
+  .component-3 .container-3-tablet hr {
+    border: 0.1px #E6E6E6 solid;
+  }
+  .component-3 .container-3-tablet p {
+    padding-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6A6A6A;
+  }
+  .component-3 .container-3-tablet .features-list-tablet {
+    padding-top: 0px;
+  }
+  .component-3 .container-3-tablet .features-list-tablet .row {
+    position: relative;
+    margin: 0px;
+    padding-top: 28px;
+    padding-bottom: 17px;
+  }
+  .component-3 .container-3-tablet .features-list-tablet .row p {
+    position: absolute;
+    width: 75%;
+    margin: 0px;
+    left: 4.3%;
+    top: 18px;
+  }
+  .component-3 .container-3-tablet .read-more-3 {
+    margin-top: 45px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-right: 7px;
+    width: 18.1%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #3AB6B2;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 134px;
+  }
+  .component-3 .container-3-desktop {
+    display: none;
+  }
+  .component-3 .container-3-tablet {
+    display: none;
+  }
+  .component-3 .title-3 {
+    text-align: center;
+  }
+  .component-3 .title-3 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    line-height: 53.43px;
+  }
+  .component-3 .title-3 h2 span {
+    color: #3AB6B2;
+  }
+  .component-3 .title-3 .icon-3 {
+    width: 35.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-3 .title-3 .icon-3 hr {
+    width: 30px;
+  }
+  .component-3 .container-3-mobile {
+    width: 87.6%;
+    margin: auto;
+    padding-top: 32px;
+  }
+  .component-3 .container-3-mobile .img-4-mobile {
+    width: 100%;
+    padding-top: 103px;
+    padding-bottom: 104px;
+    background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_401812.jpg");
+    background-size: cover;
+  }
+  .component-3 .container-3-mobile .about-us-3 {
+    padding-top: 7px;
+  }
+  .component-3 .container-3-mobile .about-us-3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 11px;
+    letter-spacing: -0.3px;
+  }
+  .component-3 .container-3-mobile hr {
+    border: 0.1px #E6E6E6 solid;
+  }
+  .component-3 .container-3-mobile p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6A6A6A;
+  }
+  .component-3 .container-3-mobile .features-list-mobile {
+    padding-top: 0px;
+  }
+  .component-3 .container-3-mobile .features-list-mobile .row {
+    position: relative;
+    margin: 0px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+  }
+  .component-3 .container-3-mobile .features-list-mobile .row p {
+    position: absolute;
+    width: 90%;
+    margin: 0px;
+    left: 11.3%;
+    top: 19.2px;
+  }
+  .component-3 .container-3-mobile .read-more-3 {
+    margin-top: 42px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-right: 7px;
+    width: 130px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #3AB6B2;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .component-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 103px;
+    padding-bottom: 134px;
+  }
+  .component-3 .container-3-tablet {
+    display: none;
+  }
+  .component-3 .container-3-mobile {
+    display: none;
+  }
+  .component-3 .title-3 {
+    text-align: center;
+  }
+  .component-3 .title-3 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    line-height: 61px;
+  }
+  .component-3 .title-3 h2 span {
+    color: #3AB6B2;
+  }
+  .component-3 .title-3 .icon-3 {
+    width: 6.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-3 .title-3 .icon-3 hr {
+    width: 30px;
+  }
+  .component-3 .container-3-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .component-3 .container-3-desktop .img-3 {
+    position: relative;
+    width: 510px;
+    left: 8%;
+    padding-top: 93px;
+    margin-right: 6%;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg {
+    position: absolute;
+    top: 113px;
+    left: 21.7px;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg img {
+    height: 264.04px;
+  }
+  .component-3 .container-3-desktop .content-3 {
+    width: 30.3%;
+    position: relative;
+    left: -8.18%;
+    padding-top: 62px;
+    margin-left: 6%;
+  }
+  .component-3 .container-3-desktop .content-3 .about-us-3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 32px;
+    letter-spacing: -0.7px;
+  }
+  .component-3 .container-3-desktop .content-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #6A6A6A;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 {
+    margin-top: 38px;
+    padding: 17px 20px 44px 20px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #3B3B3B;
+    text-align: center;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 .location {
+    padding: 0px 3px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont {
+    width: 181px;
+    padding-left: 28px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding-top: 24px;
+    line-height: 3px;
+    letter-spacing: -0.5px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .component-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 103px;
+    padding-bottom: 134px;
+  }
+  .component-3 .container-3-tablet {
+    display: none;
+  }
+  .component-3 .container-3-mobile {
+    display: none;
+  }
+  .component-3 .title-3 {
+    text-align: center;
+  }
+  .component-3 .title-3 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    line-height: 61px;
+  }
+  .component-3 .title-3 h2 span {
+    color: #3AB6B2;
+  }
+  .component-3 .title-3 .icon-3 {
+    width: 6.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-3 .title-3 .icon-3 hr {
+    width: 30px;
+  }
+  .component-3 .container-3-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .component-3 .container-3-desktop .img-3 {
+    position: relative;
+    width: 510px;
+    left: 8.6%;
+    padding-top: 93px;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg {
+    position: absolute;
+    top: 113px;
+    left: 21.7px;
+  }
+  .component-3 .container-3-desktop .img-3 .mac-bg img {
+    height: 264.04px;
+  }
+  .component-3 .container-3-desktop .content-3 {
+    width: 30.3%;
+    position: relative;
+    left: -8.18%;
+    padding-top: 62px;
+  }
+  .component-3 .container-3-desktop .content-3 .about-us-3 h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 32px;
+    letter-spacing: -0.7px;
+  }
+  .component-3 .container-3-desktop .content-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #6A6A6A;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (90px)[2];
+        grid-template-rows: repeat(2, 90px);
+    grid-gap: 37px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 {
+    margin-top: 38px;
+    padding: 17px 20px 44px 20px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: #3B3B3B;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col div.icon-3-1 .location {
+    padding: 0px 3px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont {
+    width: 181px;
+    padding-left: 28px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding-top: 24px;
+    line-height: 3px;
+    letter-spacing: -0.5px;
+  }
+  .component-3 .container-3-desktop .content-3 .features-3-list .col .feat-cont p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .component-4 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .component-4 {
+    display: none;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-4 .title-4 {
+    padding-left: 44.68%;
+  }
+  .component-4 .title-4 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    line-height: 61px;
+  }
+  .component-4 .title-4 .icon-4 {
+    width: 12.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 3.5%;
+  }
+  .component-4 .title-4 .icon-4 hr {
+    width: 30px;
+    height: 0px;
+    color: #292929;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,8 @@
 @media screen and (min-width:768px) and (max-width:1024px){
     .component-2{
         width: 100%;
-        background-color: $color-4;
+        background-image: url('../../../images/component-2/bg-1.jpg');
+        background-size: cover;
         padding-top: 116px;
         padding-bottom: 187px;
         display: flex;
@@ -40,8 +41,9 @@
             .read-more-2{
                 box-sizing: border-box;
                 margin: auto;
-                padding-top: 10px;
-                padding-bottom: 10px;  
+                padding-top: 8px;
+                padding-bottom: 11px;
+                padding-right: 5px;
                 width: 19.8%;
                 text-align: center;
                 font-family: $font-raleway;
