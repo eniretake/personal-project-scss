@@ -6,6 +6,7 @@
 /* paragraph color in component 3 */
 /* icon background color in component 3 */
 /* hr color in component 3*/
+/* hr color in component 4*/
 body, html {
   width: 100%;
   padding: 0px;
@@ -536,7 +537,7 @@ body, html {
     width: 100%;
     background-color: #FFFFFF;
     padding-top: 61px;
-    padding-bottom: 134px;
+    padding-bottom: 75px;
   }
   .component-3 .container-3-desktop {
     display: none;
@@ -639,7 +640,7 @@ body, html {
     width: 100%;
     background-color: #FFFFFF;
     padding-top: 25px;
-    padding-bottom: 134px;
+    padding-bottom: 42px;
   }
   .component-3 .container-3-desktop {
     display: none;
@@ -977,43 +978,342 @@ body, html {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .component-4 {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .component-4 {
-    display: none;
     width: 100%;
+    height: 1225px;
+    padding-top: 63px;
     background-color: #000000;
     color: #FFFFFF;
   }
   .component-4 .title-4 {
-    padding-left: 44.68%;
+    text-align: center;
   }
   .component-4 .title-4 h2 {
     margin: auto;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
-    font-size: 31px;
-    line-height: 61px;
+    font-size: 28.99px;
+    line-height: 53px;
+  }
+  .component-4 .title-4 h2 span {
+    color: #3AB6B2;
   }
   .component-4 .title-4 .icon-4 {
-    width: 12.3%;
+    width: 14.3%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-left: 3.5%;
+    margin: auto;
   }
   .component-4 .title-4 .icon-4 hr {
-    width: 30px;
-    height: 0px;
-    color: #292929;
+    width: 37px;
+  }
+  .component-4 .container-4 {
+    margin: auto;
+    padding-top: 62px;
+    width: 42.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-4 .container-4 .col {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 62px;
+  }
+  .component-4 .container-4 .col .bg-4-hex {
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col .bg-4-hex-hover {
+    display: none;
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover {
+    display: none;
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover + .bg-4-hex-hover {
+    display: block;
+  }
+  .component-4 .container-4 .col .img-4 {
+    text-align: center;
+    position: absolute;
+    left: 49px;
+    top: 48%;
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+  }
+  .component-4 .container-4 .col .serv {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .component-4 .container-4 .col .serv h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.4px;
+    color: #3AB6B2;
+    margin-bottom: 16px;
+  }
+  .component-4 .container-4 .col .serv p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.21px;
+    width: 91%;
+    padding-left: 4.5%;
+  }
+  .component-4 .container-4 .ex .serv h3 {
+    letter-spacing: 0.05px;
+    padding-bottom: 1px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-4 {
+    width: 100%;
+    padding-top: 27px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-4 .title-4 {
+    text-align: center;
+  }
+  .component-4 .title-4 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    line-height: 49px;
+  }
+  .component-4 .title-4 h2 span {
+    color: #3AB6B2;
+  }
+  .component-4 .title-4 .icon-4 {
+    width: 37.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-4 .title-4 .icon-4 hr {
+    width: 37px;
+  }
+  .component-4 .container-4 {
+    margin: auto;
+    padding-top: 52.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-4 .container-4 .col {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 25px;
+  }
+  .component-4 .container-4 .col .bg-4-hex {
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col .bg-4-hex-hover {
+    display: none;
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover {
+    display: none;
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover + .bg-4-hex-hover {
+    display: block;
+  }
+  .component-4 .container-4 .col .img-4 {
+    text-align: center;
+    position: absolute;
+    left: 49px;
+    top: 48%;
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+  }
+  .component-4 .container-4 .col .serv {
+    text-align: center;
+    padding-top: 37px;
+  }
+  .component-4 .container-4 .col .serv h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18.96px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #3AB6B2;
+    margin-bottom: 12px;
+    margin-top: -1px;
+  }
+  .component-4 .container-4 .col .serv p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12.98px;
+    font-weight: 400;
+    line-height: 22.88px;
+    letter-spacing: 0.31px;
+    width: 86%;
+    padding-left: 7.2%;
+  }
+  .component-4 .container-4 .ex {
+    padding-bottom: 39px;
+  }
+  .component-4 .container-4 .ex .serv h3 {
+    letter-spacing: 0.05px;
+    padding-bottom: 2px;
+  }
+  .component-4 .container-4 .ex .serv p {
+    margin: -1px;
+  }
+  .component-4 .container-4 .ex-2 .serv h3 {
+    margin-bottom: 17px;
+  }
+  .component-4 .container-4 .ex-3 .serv h3 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .component-4 {
+    width: 100%;
+    padding-top: 135px;
+    padding-bottom: 137px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .component-4 .title-4 {
+    text-align: center;
+  }
+  .component-4 .title-4 h2 {
+    margin: auto;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    line-height: 46px;
+  }
+  .component-4 .title-4 h2 span {
+    color: #3AB6B2;
+  }
+  .component-4 .title-4 .icon-4 {
+    width: 6.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  .component-4 .title-4 .icon-4 hr {
+    width: 37px;
+  }
+  .component-4 .container-4 {
+    margin: auto;
+    padding-top: 145px;
+    width: 63.3%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .component-4 .container-4 .col {
+    position: relative;
+    display: inline-block;
+    width: 27.68%;
+  }
+  .component-4 .container-4 .col .bg-4-hex {
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col .bg-4-hex-hover {
+    display: none;
+    position: relative;
+    left: 50%;
+    width: 124.52px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover {
+    display: none;
+  }
+  .component-4 .container-4 .col div.bg-4-hex:hover + .bg-4-hex-hover {
+    display: block;
+  }
+  .component-4 .container-4 .col .img-4 {
+    text-align: center;
+    position: absolute;
+    left: 49px;
+    top: 48%;
+    -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%);
+  }
+  .component-4 .container-4 .col .serv {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .component-4 .container-4 .col .serv h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.4px;
+    color: #3AB6B2;
+    margin-bottom: 0px;
+  }
+  .component-4 .container-4 .col .serv p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.21px;
+    width: 91%;
+    padding-left: 4.5%;
+  }
+  .component-4 .container-4 .ex .serv h3 {
+    letter-spacing: 0.05px;
   }
 }
 /*# sourceMappingURL=main.css.map */
