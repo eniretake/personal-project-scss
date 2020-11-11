@@ -1,0 +1,154 @@
+@media screen and (min-width:1025px){
+    .component-5{
+        width: 100%;
+        padding-top: 101px;
+        .title{
+            text-align: center;
+            h2{
+                margin: auto;
+                font-weight: 600;
+                font-family: $font-raleway;
+                font-size: 31px;
+                line-height: 51px;
+                span{
+                    color: $color-3;
+                }
+            }
+            .icon-5{
+                width: 7%;
+                display: flex;
+                justify-content: space-between;
+                margin:auto;
+
+                hr{
+                    width: 30px;
+                }
+            }
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 8px;
+            padding-top: 82px;
+            .grid-item{
+                position: relative;
+                padding-top: 239px;
+                padding-bottom: 140px;
+                background-color: black;
+                
+                .container-5{
+                    display: none;
+                    .icons-5{
+                        position: absolute;
+                        display: none;
+                        width: 100%;
+                        background-color: $color-7;
+                        opacity: 0.8;
+                        top: 40%;
+                        left: 49.5%;
+                        transform: translate(-50%, -50%);
+                        height: 304px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        >div{
+                            text-align: center;
+                            width: 46px;
+                            height: 46px;
+                            border-radius: 50%;
+                            border: 2px $color-3 solid;
+                            margin-right: 10px;
+                            margin-top: 61px;
+                        }
+                        .fb, .tw, .ig {
+                            display: none;
+                        }
+                        .link, .seen, .fb, .tw, .ig{
+                            img{
+                                position: relative;
+                                top: 28%;
+                            }
+                            
+                        }
+                    }
+
+                    div.icons-5>div:hover {
+                        background-color: $color-3;
+                    }
+
+                    .details{
+                        background-color: $color-1;
+                        height: 76px;
+                        text-align: center;
+                        font-family: $font-raleway;
+                        font-weight: 600px;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        h3{
+                            font-size: 16.98px;
+                            line-height: 29px;
+                            color: $color-2;
+                            margin-bottom: 0px;
+                            margin-top: 14px;
+                        }
+                        p{
+                            font-size: 13px;
+                            color: $color-3;
+                            font-style: italic;
+                            margin: 0px;
+                        }
+                    }
+
+                    
+                }
+            }
+            
+            div.grid-item:hover > .container-5{
+                display: block;
+            }
+
+            .ghost{
+                display: none;
+            }
+            .r1{
+                grid-row: 1 / span 1;
+            }
+            .r2{
+                grid-row: 2 / span 1;
+            }
+            .col-2{
+                grid-column: span 2;
+            }
+            .bg-5-1{
+                background-image: url('../../../images/component-5/bg-1.jpg');
+                background-size: cover;
+            }
+            .bg-5-2{
+                background-image: url('../../../images/component-5/bg-2.jpg');
+                background-size: cover;
+            }
+            .bg-5-3{
+                background-image: url('../../../images/component-5/bg-3.jpg');
+                background-size: cover;
+            }
+            .bg-5-4{
+                background-image: url('../../../images/component-5/bg-4.jpg');
+                background-size: cover;
+            }
+            .bg-5-5{
+                background-image: url('../../../images/component-5/bg-5.jpg');
+                background-size: cover;
+            }
+            .bg-5-6{
+                background-image: url('../../../images/component-5/bg-6.jpg');
+                background-size: cover;
+            }
+            .bg-5-7{
+                background-image: url('../../../images/component-5/bg-7.jpg');
+                background-size: cover;
+            }
+        }
+    }
+}

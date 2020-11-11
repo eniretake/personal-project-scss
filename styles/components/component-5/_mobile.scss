@@ -1,0 +1,162 @@
+@media screen and (min-width:320px) and (max-width:767px){
+    .component-5{
+        width: 100%;
+        padding-top: 27px;
+        .title{
+            text-align: center;
+            h2{
+                margin: auto;
+                font-weight: 600;
+                font-family: $font-raleway;
+                font-size: 27px;
+                line-height: 51px;
+                span{
+                    color: $color-3;
+                }
+            }
+            .icon-5{
+                width: 36%;
+                display: flex;
+                justify-content: space-between;
+                margin:auto;
+
+                hr{
+                    width: 30px;
+                }
+            }
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4, 1fr);
+            grid-gap: 7px;
+            padding-top: 33px;
+            width: 87.3%;
+            margin: auto;
+            .grid-item{
+                position: relative;
+                padding-top: 91px;
+                padding-bottom: 72px;
+                background-color: black;
+                
+                .container-5{
+                    display: none;
+                    .icons-5{
+                        position: absolute;
+                        display: none;
+                        width: 100%;
+                        background-color: $color-7;
+                        opacity: 0.8;
+                        top: 40%;
+                        left: 49.5%;
+                        transform: translate(-50%, -50%);
+                        height: 131px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        >div{
+                            text-align: center;
+                            width: 26.4px;
+                            height: 23.4px;
+                            border-radius: 50%;
+                            border: 2px $color-3 solid;
+                            margin-right: 1px;
+                            margin-top: -17px;
+                        }
+                        .fb, .tw, .ig {
+                            display: block;
+                        }
+                        .seen, .link{
+                            display: none;
+                        }
+                        .link, .seen, .fb, .tw, .ig{
+                            img{
+                                position: relative;
+                                top: 19%;
+                            }
+                            
+                        }
+                    }
+
+                    div.icons-5>div:hover {
+                        background-color: $color-3;
+                    }
+
+                    .details{
+                        background-color: $color-1;
+                        height: 54px;
+                        text-align: center;
+                        font-family: $font-raleway;
+                        font-weight: 600px;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        h3{
+                            font-size: 13.98px;
+                            
+                            color: $color-2;
+                            margin-bottom: 5px;
+                            margin-top: 11px;
+                            font-weight: 500;
+                            span{
+                                display: none;
+                            }
+                        }
+                        p{
+                            font-size: 11px;
+                            color: $color-3;
+                            font-style: italic;
+                            margin: 0px;
+                        }
+                    }
+
+                    
+                }
+            }
+            
+            div.grid-item:hover > .container-5{
+                display: block;
+            }
+
+            .r1, .r2, .ghost{
+                grid-row: span 1;
+                grid-column: span 1;
+            }
+            .ghost-2{
+                display: none;
+            }
+            .col-2{
+                display: none;
+                grid-column: span 2;
+            }
+            .bg-5-1{
+                background-image: url('../../../images/component-5/bg-1.jpg');
+                background-size: cover;
+            }
+            .bg-5-2{
+                background-image: url('../../../images/component-5/bg-2.jpg');
+                background-size: cover;
+            }
+            .bg-5-3{
+                background-image: url('../../../images/component-5/bg-3.jpg');
+                background-size: cover;
+            }
+            .bg-5-4{
+                background-image: url('../../../images/component-5/bg-4.jpg');
+                background-size: cover;
+            }
+            .bg-5-5{
+                background-image: url('../../../images/component-5/bg-5.jpg');
+                background-size: cover;
+            }
+            .bg-5-6{
+                background-image: url('../../../images/component-5/bg-6.jpg');
+                background-size: cover;
+            }
+            .bg-5-7{
+                background-image: url('../../../images/component-5/bg-7.jpg');
+                background-size: cover;
+            }
+        }
+    }
+}
